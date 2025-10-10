@@ -1,0 +1,17 @@
+ #include<stdio.h>
+int main() {
+    int geracao;
+    int coelho=1;
+    int geracao_escolhida;
+    int coelho_total=1;
+    
+    printf("Digite o numero da geração:");
+    scanf("%d" , &geracao_escolhida);
+    
+    for(geracao =1; geracao <= geracao_escolhida; geracao++){
+        printf("quantidade da geração:%d\nnumero de coelhos:%d\n\n", geracao_escolhida , coelho_total);
+        coelho=coelho *2;
+        coelho_total = coelho +coelho -1;
+    }
+}    
+    
