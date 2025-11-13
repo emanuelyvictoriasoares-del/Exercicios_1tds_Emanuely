@@ -1,0 +1,22 @@
+#include <stdio.h>
+int valor1;
+int valor2;
+
+int main(){
+    printf("Digite o quanto voce tem?\n");
+scanf("%d", &valor1);
+printf("Digite quantos cascos voce tem\n");
+scanf("%d", &valor2);
+
+if (valor1 >= 8 && valor2 >=1) {
+    printf("você comprou!");
+}
+    printf("Faltou o casco");
+}
+else if(valor1 <=0 ,valor2 >=1){
+    printf("faltou dinheiro");
+}
+else{
+    printf("Você não comprou");
+}
+}
